@@ -11,3 +11,59 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+}
+
+.App-title {
+    font-size: 1.5em;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+@keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+
+/////////////////
+
+body{
+    background: lightskyblue;
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 20px;
+}
+
+.btn{
+    background: blanchedalmond;
+    margin: 20px;
+}
+
+.add-btn{
+    background: orangered;
+}
+.app-title{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+}
+.container{
+    border: 5px solid pink;
+    border-radius: 25px;
+
+}
